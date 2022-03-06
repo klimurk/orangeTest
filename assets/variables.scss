@@ -1,0 +1,88 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+
+// $clr-back-1: #020202;
+// $clr-back-2: #0d1522;
+// $clr-btn-1: #1cb0ff;
+// $clr-btn-2: #0a87fa;
+// $clr-footer-1: #0f162f;
+// $clr-footer-2: #0e141e;
+// $clr-header-2: #1a202c;
+// $clr-header-1: #6a6868;
+$clr-black: #142948;
+// $clr-border: #14161B;
+$clr-rose: #FF6067;
+$clr-blue: #0097E2;
+$clr-grey:#505876;
+$clr-green: #7BDFC1;
+$clr-yellow: #FFF56B;
+$clr-grey-light:#ccc;
+.clr-black{
+  color: $clr-black;
+}
+.clr-rose{
+  color: $clr-rose;
+}
+.clr-blue{
+  color: $clr-blue;
+}
+.clr-grey{
+  color: $clr-grey;
+}
+.clr-green{
+  color: $clr-green;
+}
+.clr-yellow{
+  color: $clr-yellow;
+}
+.clr-grey-light{
+  color: $clr-grey-light;
+}
+
+.bg-clr-black{
+  background-color: $clr-black;
+}
+.bg-clr-rose{
+  background-color: $clr-rose;
+}
+.bg-clr-blue{
+  background-color: $clr-blue;
+}
+.bg-clr-grey{
+  background-color: $clr-grey;
+}
+.bg-clr-green{
+  background-color: $clr-green;
+}
+.bg-clr-yellow{
+  background-color: $clr-yellow;
+}
+.bg-clr-grey-light{
+  background-color: $clr-grey-light;
+}
+
+@font-face {
+  font-family: "Ovo";
+  src: local("Ovo"),
+   url('~assets/fonts/Ovo/Ovo-Regular.ttf') format("truetype");
+}
+@font-face {
+  font-family: "HelveticaNowDisplay";
+  src: local("HelveticaNowDisplay"),
+   url('~assets/fonts/HelveticaNowDisplay/HelveticaNowDisplay-Regular.ttf') format("truetype"),
+   url('~assets/fonts/HelveticaNowDisplay/HelveticaNowDisplay-Black.ttf') format("truetype"),
+   url('~assets/fonts/HelveticaNowDisplay/HelveticaNowDisplay-Bold.ttf') format("truetype"),
+   url('~assets/fonts/HelveticaNowDisplay/HelveticaNowDisplay-ExtLt.ttf') format("truetype"),
+   url('~assets/fonts/HelveticaNowDisplay/HelveticaNowDisplay-Light.ttf') format("truetype"),
+   url('~assets/fonts/HelveticaNowDisplay/HelveticaNowDisplay-Thin.ttf') format("truetype"),
+   url('~assets/fonts/HelveticaNowDisplay/HelveticaNowDisplay-Medium.ttf') format("truetype");
+}
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+.ff-openSans{
+  font-family: Open Sans,sans-serif;
+}
